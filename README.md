@@ -67,7 +67,7 @@ The dataset comprises 4 classes with 250 images each, divided into training,and 
       ```
 
 2. **Classification Network (Transfer Learning):**
-   - Used the VGG-16 model for transfer learning.
+   - Used the first 2 blocks of VGG-16 model for transfer learning.
    - Modified the model by adding custom layers for classification.
    ```python
       # Add custom layers
